@@ -1,0 +1,105 @@
+@import url(Fonts/Sansation_Regular.ttf);
+@import url(Fonts/Sansation_Bold.ttf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo a {
+  font-family: "Sansation_Regular", sans-serif;
+}
+.logo a span {
+  font-family: "Sansation_Bold", sans-serif;
+}
+.logo
+{
+    font-size:30px;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.header {
+  height: 64px;
+  border: solid black;
+  display: flex;
+  align-items: center;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+
+}
+.header .container ul {
+  display: flex;
+  list-style-type: none;
+}
+.header .container ul li {
+  margin: 1rem;
+}
+.header .buynow {
+  background-color: #cb7428;
+  color: white;
+  border-radius: 30px;
+  width: 126px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buyButton
+{
+    justify-content: space-around;
+}
+.hero
+{
+    background-color: #1E2A2F;
+    height: 100vh;  
+}
+.hero .content
+{
+    width: 80%;
+    margin:0 10%;
+    border: solid white;
+    display: flex;
+
+}
+.content .books
+{
+ width: 600px;
+ height:600px ;
+ padding: 56px;
+ /* margin-left: ; */
+}
+.content .books img
+{
+ width: 100%;
+ height: 100;
+}
+.intro a
+{
+    color: white;
+    font-family:"Sansation_Regular", sans-serif;
+    font-size: 55px;
+}
+.intro a span
+{
+    font-family:"Sansation_Bold", sans-serif ;
+}
+ 
+.intro p 
+{
+    font-size: 26px;
+    font-family: "Sansita", sans-serif;
+    color: white;
+}
+.intro .desc {
+    font-size: 12px;
+}
+
